@@ -1,0 +1,24 @@
+REPORTE DE CLASIFICACIÓN - ÁRBOL DE DECISIÓN
+============================================
+
+              precision    recall  f1-score   support
+
+      Africa       0.50      0.33      0.40        12
+    Americas       0.14      0.18      0.16        11
+   Antarctic       0.00      0.00      0.00         1
+        Asia       0.42      0.50      0.45        10
+      Europe       0.12      0.09      0.11        11
+     Oceania       0.43      0.60      0.50         5
+
+    accuracy                           0.30        50
+   macro avg       0.27      0.28      0.27        50
+weighted avg       0.31      0.30      0.30        50
+
+
+Codificación de regiones:
+0: Africa
+1: Americas
+2: Antarctic
+3: Asia
+4: Europe
+5: Oceania
