@@ -202,7 +202,7 @@ def grafica_pastel_paises_por_region(datos, carpeta_salida):
 
 def main():
     ruta_json = Path("JSON") / "paises_transformados.json"
-    carpeta_salida = Path("GRAFICAS")
+    carpeta_salida = Path("EDA")
     carpeta_salida.mkdir(parents=True, exist_ok=True)
 
     datos = cargar_datos(ruta_json)
